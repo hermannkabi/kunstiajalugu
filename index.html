@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kunstiajaloo ajatelg</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body{
+            font-family: Lexend;
+        }
+        .shadow{
+            -webkit-box-shadow: 0px 0px 200px 90px rgba(255,206,166,1);
+-moz-box-shadow: 0px 0px 200px 90px rgba(255,206,166,1);
+box-shadow: 0px 0px 200px 90px rgba(255,206,166,1);
+        }
+    </style>
+    <div style="height: 100px;"></div>
+    <h1 style="font-family: Lexend; margin: auto; text-align: center; font-weight: 900;">Ajatelg 2024</h1>
+    <p style="font-family: Lexend; text-align: center; color: grey; font-size: 1.4em; margin-top: 0;">Hermann Käbi</p>
+    <div style="height: 50px;"></div>
+
+    <div style="position: absolute; top: 0; left: 100px; height: 0; width: 0;" class="shadow"></div>
+
+    <div style="position: sticky; top: 8px; display: grid; justify-content: space-evenly; grid-template-columns: 1fr 1fr 1fr; margin: auto; text-align: center; font-weight: bold;">
+        <p>ÜLDAJALUGU</p>
+        <p>KUNSTIAJALUGU</p>
+        <p>KOLMAS AJALUGU</p>
+    </div>
+    <div style="height: 50px;"></div>
+
+    <div id="container"></div>
+
+    <div style="position: fixed; bottom: 0; right: 100px; height: 0; width: 0;" class="shadow"></div>
+
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="timeline_row.jsx" type="text/babel"></script>
+</body>
+</html>

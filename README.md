@@ -1,2 +1,2 @@
-# kunstiajalugu
-Tallinna Reaalkooli kunstiajaloo tunni materjalid (ajatelg)
+# Kunstiajalugu
+Tallinna Reaalkooli kunstiajaloo tunni materjalid (ajatelg).
